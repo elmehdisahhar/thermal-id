@@ -1,0 +1,74 @@
+appareil : cpu (10 threads)
+données : train 400000, validation 100000 (4 s)
+modèle : 447301 paramètres
+  epoch 1 pas 300/1562 | perte train 0.9369 | lr 9.94e-05 | reste ~70 min
+  epoch 1 pas 600/1562 | perte train 0.9280 | lr 1.57e-04 | reste ~97 min
+  epoch 1 pas 900/1562 | perte train 0.9214 | lr 2.50e-04 | reste ~102 min
+  epoch 1 pas 1200/1562 | perte train 0.9203 | lr 3.74e-04 | reste ~105 min
+  epoch 1 pas 1500/1562 | perte train 0.9180 | lr 5.26e-04 | reste ~105 min
+epoch 1/10 | perte train 0.9177 | perte val 0.8973 (meilleur) | 12.2 min | reste ~110 min
+  MAPE val (%) HLC 9.16 [base 8.58] HLC_mit 16.20 [base 16.01] HLC_ext 11.89 [base 10.80] tau_b 15.91 [base 15.40] tau_n 13.13 [base 12.61] tau_inf 18.83 [base 18.46]
+  epoch 2 pas 300/1562 | perte train 0.9000 | lr 7.36e-04 | reste ~108 min
+  epoch 2 pas 600/1562 | perte train 0.9010 | lr 9.24e-04 | reste ~103 min
+  epoch 2 pas 900/1562 | perte train 0.8990 | lr 1.12e-03 | reste ~101 min
+  epoch 2 pas 1200/1562 | perte train 0.8984 | lr 1.31e-03 | reste ~101 min
+  epoch 2 pas 1500/1562 | perte train 0.8928 | lr 1.49e-03 | reste ~98 min
+epoch 2/10 | perte train 0.8917 | perte val 0.8485 (meilleur) | 13.0 min | reste ~104 min
+  MAPE val (%) HLC 8.95 [base 8.58] HLC_mit 16.09 [base 16.01] HLC_ext 10.78 [base 10.80] tau_b 15.52 [base 15.40] tau_n 12.79 [base 12.61] tau_inf 18.45 [base 18.46]
+  epoch 3 pas 300/1562 | perte train 0.8525 | lr 1.68e-03 | reste ~100 min
+  epoch 3 pas 600/1562 | perte train 0.8468 | lr 1.81e-03 | reste ~101 min
+  epoch 3 pas 900/1562 | perte train 0.8438 | lr 1.91e-03 | reste ~97 min
+  epoch 3 pas 1200/1562 | perte train 0.8405 | lr 1.97e-03 | reste ~91 min
+  epoch 3 pas 1500/1562 | perte train 0.8384 | lr 2.00e-03 | reste ~88 min
+epoch 3/10 | perte train 0.8379 | perte val 0.8406 (meilleur) | 13.2 min | reste ~92 min
+  MAPE val (%) HLC 9.42 [base 8.58] HLC_mit 17.28 [base 16.01] HLC_ext 10.60 [base 10.80] tau_b 15.95 [base 15.40] tau_n 12.93 [base 12.61] tau_inf 19.09 [base 18.46]
+  epoch 4 pas 300/1562 | perte train 0.8238 | lr 2.00e-03 | reste ~86 min
+  epoch 4 pas 600/1562 | perte train 0.8217 | lr 1.99e-03 | reste ~86 min
+  epoch 4 pas 900/1562 | perte train 0.8191 | lr 1.97e-03 | reste ~82 min
+  epoch 4 pas 1200/1562 | perte train 0.8188 | lr 1.94e-03 | reste ~81 min
+  epoch 4 pas 1500/1562 | perte train 0.8166 | lr 1.91e-03 | reste ~78 min
+epoch 4/10 | perte train 0.8161 | perte val 0.8024 (meilleur) | 13.5 min | reste ~81 min
+  MAPE val (%) HLC 8.64 [base 8.58] HLC_mit 15.83 [base 16.01] HLC_ext 10.04 [base 10.80] tau_b 15.18 [base 15.40] tau_n 12.58 [base 12.61] tau_inf 18.21 [base 18.46]
+  epoch 5 pas 300/1562 | perte train 0.8105 | lr 1.86e-03 | reste ~69 min
+  epoch 5 pas 600/1562 | perte train 0.8064 | lr 1.81e-03 | reste ~70 min
+  epoch 5 pas 900/1562 | perte train 0.8060 | lr 1.76e-03 | reste ~70 min
+  epoch 5 pas 1200/1562 | perte train 0.8046 | lr 1.70e-03 | reste ~69 min
+  epoch 5 pas 1500/1562 | perte train 0.8041 | lr 1.64e-03 | reste ~70 min
+epoch 5/10 | perte train 0.8038 | perte val 0.8065 | 14.6 min | reste ~73 min
+  MAPE val (%) HLC 8.71 [base 8.58] HLC_mit 16.19 [base 16.01] HLC_ext 9.93 [base 10.80] tau_b 15.63 [base 15.40] tau_n 13.00 [base 12.61] tau_inf 18.80 [base 18.46]
+  epoch 6 pas 300/1562 | perte train 0.7906 | lr 1.55e-03 | reste ~67 min
+  epoch 6 pas 600/1562 | perte train 0.7961 | lr 1.48e-03 | reste ~65 min
+  epoch 6 pas 900/1562 | perte train 0.7946 | lr 1.40e-03 | reste ~60 min
+  epoch 6 pas 1200/1562 | perte train 0.7953 | lr 1.32e-03 | reste ~56 min
+  epoch 6 pas 1500/1562 | perte train 0.7935 | lr 1.24e-03 | reste ~53 min
+epoch 6/10 | perte train 0.7932 | perte val 0.7879 (meilleur) | 13.8 min | reste ~55 min
+  MAPE val (%) HLC 8.53 [base 8.58] HLC_mit 15.84 [base 16.01] HLC_ext 9.72 [base 10.80] tau_b 15.20 [base 15.40] tau_n 12.61 [base 12.61] tau_inf 18.29 [base 18.46]
+  epoch 7 pas 300/1562 | perte train 0.7859 | lr 1.14e-03 | reste ~485 min
+  epoch 7 pas 600/1562 | perte train 0.7858 | lr 1.05e-03 | reste ~244 min
+  epoch 7 pas 900/1562 | perte train 0.7852 | lr 9.66e-04 | reste ~169 min
+  epoch 7 pas 1200/1562 | perte train 0.7851 | lr 8.80e-04 | reste ~130 min
+  epoch 7 pas 1500/1562 | perte train 0.7838 | lr 7.95e-04 | reste ~106 min
+epoch 7/10 | perte train 0.7837 | perte val 0.7791 (meilleur) | 34.5 min | reste ~104 min
+  MAPE val (%) HLC 8.44 [base 8.58] HLC_mit 15.72 [base 16.01] HLC_ext 9.50 [base 10.80] tau_b 15.00 [base 15.40] tau_n 12.39 [base 12.61] tau_inf 18.03 [base 18.46]
+  epoch 8 pas 300/1562 | perte train 0.7742 | lr 6.94e-04 | reste ~32 min
+  epoch 8 pas 600/1562 | perte train 0.7724 | lr 6.13e-04 | reste ~28 min
+  epoch 8 pas 900/1562 | perte train 0.7731 | lr 5.35e-04 | reste ~27 min
+  epoch 8 pas 1200/1562 | perte train 0.7740 | lr 4.61e-04 | reste ~25 min
+  epoch 8 pas 1500/1562 | perte train 0.7739 | lr 3.90e-04 | reste ~23 min
+epoch 8/10 | perte train 0.7737 | perte val 0.7740 (meilleur) | 11.8 min | reste ~24 min
+  MAPE val (%) HLC 8.40 [base 8.58] HLC_mit 15.74 [base 16.01] HLC_ext 9.46 [base 10.80] tau_b 15.05 [base 15.40] tau_n 12.40 [base 12.61] tau_inf 18.11 [base 18.46]
+  epoch 9 pas 300/1562 | perte train 0.7665 | lr 3.11e-04 | reste ~14 min
+  epoch 9 pas 600/1562 | perte train 0.7662 | lr 2.51e-04 | reste ~15 min
+  epoch 9 pas 900/1562 | perte train 0.7649 | lr 1.97e-04 | reste ~14 min
+  epoch 9 pas 1200/1562 | perte train 0.7638 | lr 1.49e-04 | reste ~12 min
+  epoch 9 pas 1500/1562 | perte train 0.7627 | lr 1.07e-04 | reste ~11 min
+epoch 9/10 | perte train 0.7625 | perte val 0.7664 (meilleur) | 10.5 min | reste ~10 min
+  MAPE val (%) HLC 8.39 [base 8.58] HLC_mit 15.80 [base 16.01] HLC_ext 9.42 [base 10.80] tau_b 14.90 [base 15.40] tau_n 12.31 [base 12.61] tau_inf 17.98 [base 18.46]
+  epoch 10 pas 300/1562 | perte train 0.7559 | lr 6.49e-05 | reste ~6 min
+  epoch 10 pas 600/1562 | perte train 0.7545 | lr 3.79e-05 | reste ~5 min
+  epoch 10 pas 900/1562 | perte train 0.7534 | lr 1.80e-05 | reste ~3 min
+  epoch 10 pas 1200/1562 | perte train 0.7547 | lr 5.38e-06 | reste ~45 min
+  epoch 10 pas 1500/1562 | perte train 0.7556 | lr 1.62e-07 | reste ~6 min
+epoch 10/10 | perte train 0.7552 | perte val 0.7639 (meilleur) | 151.1 min | reste ~0 min
+  MAPE val (%) HLC 8.36 [base 8.58] HLC_mit 15.80 [base 16.01] HLC_ext 9.35 [base 10.80] tau_b 14.97 [base 15.40] tau_n 12.33 [base 12.61] tau_inf 18.07 [base 18.46]
+terminé en 288.2 min ; meilleure perte val 0.7639

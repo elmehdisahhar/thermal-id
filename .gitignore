@@ -1,0 +1,28 @@
+# environnement
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# données (volumineuses, téléchargées ou régénérées par `thermal_id.prepare`)
+data/raw/
+data/processed/
+
+# états d'entraînement complets (seuls best.pt, journaux et historiques sont utiles au rendu)
+runs/*/last.pt
+
+# données préparées (régénérables avec thermal_id.prepare)
+data/processed_t2/
+
+# énoncé et article de coEnergy : documents de tiers, non republiés
+docs/*.pdf
+
+# essais intermédiaires et sorties volumineuses non nécessaires
+runs/essai/
+runs/*echec*/
+results/essai*
+results/*_val_pred.pt
+
+# archive de rendu
+*.zip

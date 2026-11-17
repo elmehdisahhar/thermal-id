@@ -1,0 +1,35 @@
+{
+  "processed_dir": "data/processed",
+  "out_dir": "runs/cnn_cpu_400k",
+  "epochs": 10,
+  "batch_size": 256,
+  "max_lr": 0.002,
+  "weight_decay": 0.0001,
+  "grad_clip": 1.0,
+  "n_train": 400000,
+  "n_val": null,
+  "seed": 0,
+  "device": "auto",
+  "amp": true,
+  "log_every": 300,
+  "resume": true,
+  "use_features": false,
+  "model": {
+    "in_channels": 2,
+    "stem_width": 32,
+    "widths": [
+      32,
+      32,
+      64,
+      64,
+      128,
+      128
+    ],
+    "kernel_size": 5,
+    "head_hidden": 128,
+    "dropout": 0.1,
+    "n_outputs": 5,
+    "norm": "group",
+    "n_extra": 0
+  }
+}
